@@ -1,5 +1,6 @@
 # RepairConnect-Public
-(Código Fonte Privado) Aplicativo android e API Spring para gerenciamento de ordens de serviço Caso Tenha interesse no projeto, para implementação ou colaboração por favor contatar https://www.linkedin.com/in/luiz-paulo-lopes-15b5191a8/
+Aplicativo android e API Spring para gerenciamento de ordens de serviço
+
 ## Projeto 
 - [Interface](#interface)
 - [Registro de Serviços e Clientes](#registro-de-serviços-e-clientes)
@@ -21,3 +22,15 @@
 ### Usuário Administrador e Consulta Web
 ![aw](gifs/admin-web-layer4/admin_b.gif)
 ![aw](gifs/admin-web-layer4/web_qr.gif)
+
+Download da verção de demonstração gratuita:
+#### credenciais para uso
+```
+  Usuário Administrador: admin
+  Senha: main123
+
+  Usuário padrão: user
+  Senha: main123
+```
+## (Código Fonte Privado)
+Caso Tenha interesse no projeto, para implementação ou colaboração por favor contatar https://www.linkedin.com/in/luiz-paulo-lopes-15b5191a8/
