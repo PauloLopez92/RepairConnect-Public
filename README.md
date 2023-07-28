@@ -20,4 +20,4 @@
 
 ### Usuário Administrador e Consulta Web
 ![aw](gifs/admin-web-layer4/admin_b.gif)
-![aw](gifs/admin-web-layer4/web_qr)
+![aw](gifs/admin-web-layer4/web_qr.gif)
