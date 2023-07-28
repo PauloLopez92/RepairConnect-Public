@@ -1,4 +1,4 @@
-# RepairConnect-Public
+# RepairConnect
 RepairConnect é um aplicativo Android desenvolvido para gerenciamento de ordens de serviço em assistências técnicas. É uma aplicação totalmente online, não armazena nenhum registro localmente no aparelho e mantém registros independentes para cada usuário. O aplicativo oferece funções de gerenciamento para usuários administradores e foi construído utilizando a linguagem Java nativa para Android, com integração a uma API proprietária desenvolvida em Java, utilizando o Framework Spring.
 
 ## Principais recursos:
@@ -42,6 +42,5 @@ Download da versão de demonstração gratuita: http://repairconnect.duckdns.org
 ## (Código Fonte Privado)
 Caso tenha interesse no projeto, seja para implementação ou colaboração por favor contatar
 - Linkedin: https://www.linkedin.com/in/luiz-paulo-lopes-15b5191a8/
-- Telegram/Whatsapp:(88) 9 9378-8464
 
 ###### (by SingleSoft)
