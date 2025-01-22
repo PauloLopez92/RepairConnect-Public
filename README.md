@@ -30,16 +30,7 @@ O RepairConnect-Public visa proporcionar uma experiência intuitiva e eficiente 
 ![aw](gifs/admin-web-layer4/admin_b.gif)
 ![aw](gifs/admin-web-layer4/web_qr.gif)
 
-Download da versão de demonstração gratuita: http://repairconnect.duckdns.org/RepairCon.apk
-#### Credenciais para uso:
-```
-  Usuário Administrador: admin
-  Senha: main123
-
-  Usuário padrão: user
-  Senha: main123
-```
-## (Código Fonte Privado)
+## Colaboração:
 Caso tenha interesse no projeto, seja para implementação ou colaboração por favor contatar
 - Linkedin: https://www.linkedin.com/in/luiz-paulo-lopes-15b5191a8/
 
