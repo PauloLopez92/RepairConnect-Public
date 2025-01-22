@@ -1,0 +1,195 @@
+<resources>
+    <string name="app_name">RepairConnect</string>
+    <string name="from_develop_by">Desenvolvido por</string>
+
+    <string name="from_name">Nome:</string>
+    <string name="from_contact">Contato:</string>
+    <string name="from_address">Endereço:</string>
+    <string name="from_password">Senha:</string>
+    <string name="from_confirm_password">Confirmar Senha:</string>
+    <string name="from_user_type">Permissão de Usuário:</string>
+
+    <string name="from_theme">Tema</string>
+    <string name="from_model">Modelo:</string>
+    <string name="from_tag">Tag do dispositivo:</string>
+    <string name="from_description">Descrição do Serviço:</string>
+    <string name="from_part_cost">Custo de Peça:</string>
+    <string name="from_labor_tax">Mão de obra:</string>
+    <string name="from_tech">Técnico</string>
+    <string name="from_status">Status</string>
+    <string name="from_prevTime">Previsão de entrega</string>
+    <string name="from_createTime">Data de registo</string>
+    <string name="from_current_pay">Valor pago:</string>
+    <string name="from_discount">Desconto:</string>
+    <string name="from_final_price">Preço Final:</string>
+    <string name="from_select_pay_way">Forma de pagamento:</string>
+    <string name="from_select_status">Selecionar Status do Serviço:</string>
+    <string name="from_service_qr_code">QR Code do Serviço:</string>
+    <string name="from_service_images">Imagens do Serviço:</string>
+
+    <string name="from_credit_card_debit">Débito</string>
+    <string name="from_credit_card_credit">Crédito</string>
+    <string name="from_pix">Pix</string>
+    <string name="from_cash">Dinheiro</string>
+
+    <string name="from_not_tag">Nem uma tag registrada</string>
+    <string name="from_choose_customer">Encolher Cliente</string>
+
+    <string name="from_customer">Cliente</string>
+    <string name="from_service">Serviço</string>
+    <string name="from_user">Usuário</string>
+    <string name="from_admin">Administrador</string>
+
+    <string name="from_customers">Clientes</string>
+    <string name="from_services">Serviços</string>
+    <string name="from_today">Hoje</string>
+    <string name="from_users">Usuários</string>
+
+    <string name="from_search">Pesquisar</string>
+    <string name="from_save">Salvar</string>
+    <string name="from_cancel">Cancelar</string>
+
+    <string name="from_service_create">Criar novo Serviço</string>
+    <string name="from_customer_create">Adicionar Cliente</string>
+    <string name="from_add_service_for_customer">Adicionar serviço deste Cliente</string>
+    <string name="from_add_service_for_user">Adicionar serviço para este Usuário</string>
+
+    <string name="from_not_services">Nem um serviço registrado.</string>
+    <string name="from_not_customers">Nem um cliente registrado.</string>
+    <string name="from_nothing_today">Nada para Hoje.</string>
+    <string name="from_not_Login">Senha e/ou usuário incorreto</string>
+    <string name="from_pass_not_match">Senhas diferentes.</string>
+    <string name="from_server_not_responds">Servidor não responde.</string>
+    <string name="from_still_logged">Lembrar</string>
+
+
+    <string name="from_enter_name">Insira o nome</string>
+    <string name="from_enter_tag">Insira a Tag do dispositivo</string>
+    <string name="from_enter_contact">Insira o contato</string>
+    <string name="from_enter_address">Insira o Endreço</string>
+    <string name="from_new_pass">Nova Senha</string>
+
+    <string name="from_user_name">Nome de Usuário</string>
+    <string name="from_password_insert">Senha</string>
+    <string name="from_insert_username">Insira o nome de Usuário</string>
+    <string name="from_insert_pass">Insira a Senha do Usuário</string>
+
+    <string name="from_budget">Orçamento</string>
+    <string name="from_authorized">Autorizado</string>
+    <string name="from_noFix">Sem conserto</string>
+    <string name="from_bench">Bancada</string>
+    <string name="from_finished">Finalizado</string>
+    <string name="from_late">Atrasado</string>
+    <string name="from_todo">A Fazer</string>
+    <string name="from_all_services">Todos</string>
+
+    <string name="from_money">R$ </string>
+    <string name="from_date">Escolher Data</string>
+    <string name="from_hour">Escolher Hora</string>
+
+    <string name="from_yes">Sim</string>
+    <string name="from_no">Não</string>
+
+    <string name="from_successful_save">Salvo com Sucesso!</string>
+    <string name="from_successful_delete">Deletado com Sucesso.</string>
+    <string name="from_processing_request">Requisição em Processamento.</string>
+    <string name="from_connection_error">Erro de Conexão!</string>
+    <string name="from_connection_error_receive">Erro de Conexão: Falha ao receber os dados</string>
+
+    <string name="from_delete_service_confirm_title">
+        Realmente deseja deletar este serviço?
+
+    </string>
+    <string name="from_delete_service_confirm_note">
+        Os registros e images permanecerão salvos no servidor.
+    </string>
+
+    <string name="from_delete_customer_confirm_title">
+        Realmente deseja deletar este Cliente?
+
+    </string>
+
+    <string name="from_delete_customer_confirm_note">
+        Todos os serviços deste cliente serão deletados.
+    </string>
+
+    <string name="from_delete_user_confirm_title">
+        Realmente deseja deletar este Usuário?
+    </string>
+
+    <string name="from_delete_user_confirm_note">
+        Todos os serviços deste Usuário serão deletados.
+    </string>
+
+    <string name="from_exit_confirm_title">
+        Realmente deseja Sair?
+    </string>
+
+    <string name="from_exit_confirm_note">
+        A sessão atual será encerrada.
+    </string>
+
+
+    <string name="from_allert_saved_picture">Imagem salva no Dispositivo.</string>
+
+    <string name="from_url">https://efaf-191-7-206-129.ngrok-free.app</string>
+    <string name="from_web">https://efaf-191-7-206-129.ngrok-free.app/api/services/web/</string>
+
+
+    <!--
+    <string name="from_url">http://192.168.0.12:8090</string>
+    <string name="from_web">http://192.168.0.12:8090/api/services/web/</string>
+
+    <string name="from_url">https://9726-191-7-206-9.ngrok-free.app</string>
+    <string name="from_web">https://9726-191-7-206-9.ngrok-free.app/api/services/web/</string>
+
+    <string name="app_name">RepairConnect</string>
+    <string name="from_name">Name:</string>
+    <string name="from_contact">Contact:</string>
+    <string name="from_address">Address:</string>
+
+    <string name="from_model">Model:</string>
+    <string name="from_description">Description:</string>
+    <string name="from_part_cost">Part Cost:</string>
+    <string name="from_labor_tax">Labor Tax:</string>
+    <string name="from_tech">Tech</string>
+    <string name="from_status">Status</string>
+    <string name="from_prevTime">Prevision Time</string>
+    <string name="from_createTime">Creation Time</string>
+    <string name="from_select_status">Select an Status:</string>
+
+    <string name="from_customer">Customer</string>
+    <string name="from_service">Service</string>
+    <string name="from_notifications">Notifications</string>
+
+    <string name="from_save">Save</string>
+    <string name="from_cancel">Cancel</string>
+    <string name="hello_blank_fragment">Hello</string>
+
+    <string name="from_service_create">Create New Service</string>
+    <string name="from_customer_create">Create New Customer</string>
+    <string name="from_service_add">Add New Service</string>
+
+    <string name="from_Not_services">Not Services Yet.</string>
+
+    <string name="from_enter_name">Enter Name</string>
+    <string name="from_enter_contact">Enter Contact</string>
+    <string name="from_enter_address">Enter Address</string>
+
+    <string name="from_budget">Budget</string>
+    <string name="from_authorized">Authorized</string>
+    <string name="from_noFix">No Fix</string>
+    <string name="from_bench">Bench</string>
+    <string name="Finished">Finished</string>
+    -->
+    <string name="hello_blank_fragment">Hello</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

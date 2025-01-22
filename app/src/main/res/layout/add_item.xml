@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/customer_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Remove Card View to old layout
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CardViewItemStyle"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="2dp">
+         -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <ImageView
+            android:adjustViewBounds="true"
+            app:layout_constraintDimensionRatio="1:1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/n_circle"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/customerServicesNumberTextView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="@color/white"
+            android:textSize="28sp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

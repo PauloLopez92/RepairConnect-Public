@@ -1,0 +1,129 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.RepairCon" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/dark_primary</item>
+        <!-- <item name="colorPrimary">@color/purple_500</item> -->
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="CardViewBlueStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/maincolor</item>
+    </style>
+
+    <!--<style name="DarkTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">-->
+    <!--<style name="DarkTheme" parent="Theme.MaterialComponents.DayNight">-->
+    <style name="DarkTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/maincolor</item>
+        <item name="colorPrimaryVariant">@color/dark_blue_variant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/maincolor</item>
+        <item name="colorSecondaryVariant">@color/light_gray</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:windowBackground">@color/light_back</item>
+    </style>
+
+    <style name="Cyan" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <!--<style name="Cyan" parent="Theme.MaterialComponents.DayNight.NoActionBar">-->
+        <item name="android:textColor">@color/black</item>
+        <item name="colorPrimary">@color/purple_500</item> <!-- replace with your primary color -->
+        <item name="colorPrimaryVariant">@color/purple_700</item> <!-- replace with a darker shade of your primary color -->
+        <item name="colorOnPrimary">@color/white</item> <!-- replace with the text color on your primary color -->
+        <item name="colorSecondary">@color/cyan_500</item> <!-- replace with your secondary color -->
+        <item name="colorSecondaryVariant">@color/cyan_700</item> <!-- replace with a darker shade of your secondary color -->
+        <item name="colorOnSecondary">@color/white</item> <!-- replace with the text color on your secondary color -->
+    </style>
+
+    <style name="Cyan.Dar1" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/black</item>
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_500</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">@color/cyan_500</item>
+        <item name="colorSecondaryVariant">@color/cyan_500</item>
+        <item name="colorOnSecondary">@color/black</item>
+    </style>
+
+    <style name="Cyan.Dark" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Change the background color to a slightly lighter shade of black or a dark grey -->
+        <item name="android:background">@color/dark_gray</item>
+        <!-- Set the color of EditText text to white or a lighter shade of grey -->
+        <item name="android:textColor">@color/white</item>
+        <!-- Set the color of EditText hint text to a lighter shade of grey -->
+        <item name="android:textColorHint">@color/light_gray</item>
+        <!-- Set the color of navigation bar tabs to a lighter shade of the secondary color -->
+        <item name="colorSurface">@color/cyan_700</item>
+        <!-- Change the primary color to a lighter shade -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <!-- Change the primary variant to a darker shade -->
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <!-- Set the text color on primary to a lighter shade of the primary color -->
+        <item name="colorOnPrimary">@color/purple_200</item>
+        <!-- Keep the secondary color -->
+        <item name="colorSecondary">@color/cyan_500</item>
+        <!-- Keep the secondary variant -->
+        <item name="colorSecondaryVariant">@color/cyan_700</item>
+        <!-- Set the text color on secondary to a lighter shade of the secondary color -->
+        <item name="colorOnSecondary">@color/cyan_200</item>
+    </style>
+
+
+    <style name="MyTheme" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorPrimary">@color/maincolor</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/light_gray</item>
+        <item name="android:background">@color/dark_grey</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="BluedTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorPrimaryVariant">@color/dark_primary_variant</item>
+        <item name="colorOnPrimary">@color/light_text</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/dark_secondary</item>
+        <item name="colorSecondaryVariant">@color/dark_secondary_variant</item>
+        <item name="colorOnSecondary">@color/light_text</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/dark_primary_variant</item>
+
+        <!-- Navigation bar color. -->
+        <item name="android:navigationBarColor" tools:targetApi="l">@color/dark_primary_variant</item>
+
+    </style>
+
+    <style name="BlueTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorPrimaryVariant">@color/dark_primary_variant</item>
+        <item name="colorOnPrimary">@color/light_text</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/dark_secondary</item>
+        <item name="colorSecondaryVariant">@color/dark_secondary_variant</item>
+        <item name="colorOnSecondary">@color/light_text</item>
+        <!-- Default text color for light mode -->
+        <item name="android:textColor">@color/black</item>
+        <!-- Default text color for dark mode -->
+        <item name="android:textColorPrimary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/dark_primary_variant</item>
+        <!-- Navigation bar color. -->
+        <item name="android:navigationBarColor" tools:targetApi="l">@color/dark_primary_variant</item>
+        <!-- CardView background color -->
+        <item name="cardBackgroundColor">@color/dark_primary_variant</item>
+    </style>
+</resources>
+

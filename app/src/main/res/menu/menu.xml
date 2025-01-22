@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/searchid"
+        android:title="serach"
+        android:icon="@drawable/search_icon_white"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        />
+    <item
+        android:id="@+id/all"
+        android:title="@string/from_all_services"
+        />
+    <item
+        android:id="@+id/budget"
+        android:title="@string/from_budget"
+        />
+    <item
+        android:id="@+id/auth"
+        android:title="@string/from_authorized"
+        />
+
+    <item
+        android:id="@+id/bench"
+        android:title="@string/from_bench"
+        />
+
+    <item
+        android:id="@+id/nofix"
+        android:title="@string/from_noFix"
+        />
+
+    <item
+        android:id="@+id/finished"
+        android:title="@string/from_finished"
+        />
+
+</menu>

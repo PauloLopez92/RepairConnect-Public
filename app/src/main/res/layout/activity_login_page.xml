@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/username_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/from_user_name"
+        android:padding="16dp"
+        android:singleLine="true"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/password_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username_edittext"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:hint="@string/from_password_insert"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/checkAndWarningLayout"
+        android:layout_below="@id/password_edittext"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="-16dp"
+        android:layout_marginEnd="32dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/stillLogged"
+            android:textColor="@color/maincolor"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/from_still_logged" />
+
+        <TextView
+            android:id="@+id/wrong_pass_text"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="right"
+            android:padding="16dp"
+            android:text="Warning field."
+            android:textColor="@color/red"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkAndWarningLayout"
+        android:layout_centerHorizontal="true"
+        android:text="Login"
+        android:padding="16dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/username_edittext"
+        />
+
+    <TextView
+        android:gravity="center"
+        android:text="@string/from_develop_by"
+        android:textColor="@color/grey"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_marginTop="55dp"
+        android:id="@+id/imageViewSingleSoft"
+        android:layout_below="@id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        />
+    <Switch
+        android:id="@+id/switch_theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/from_theme"
+        android:textStyle="bold"
+        android:textColor="@color/maincolor"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+</RelativeLayout>
